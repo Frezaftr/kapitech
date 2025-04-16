@@ -3,26 +3,27 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // Dummy logo imports
-import logo1 from "../assets/Clients/pertaminaProject.png";
-import logo2 from "../assets/Clients/pertaminaProject.png";
-import logo3 from "../assets/Clients/pertaminaProject.png";
-import logo4 from "../assets/Clients/pertaminaProject.png";
-import logo5 from "../assets/Clients/pertaminaProject.png";
-import logo6 from "../assets/Clients/pertaminaProject.png";
-import logo7 from "../assets/Clients/pertaminaProject.png";
-import logo8 from "../assets/Clients/pertaminaProject.png";
-import logo9 from "../assets/Clients/pertaminaProject.png";
-import logo10 from "../assets/Clients/pertaminaProject.png";
-import logo11 from "../assets/Clients/pertaminaProject.png";
-import logo12 from "../assets/Clients/pertaminaProject.png";
-import logo13 from "../assets/Clients/pertaminaProject.png";
-import logo14 from "../assets/Clients/pertaminaProject.png";
-import logo15 from "../assets/Clients/pertaminaProject.png";
+import logo1 from "../assets/Clients/LogoBank_BTN_logo.png";
+import logo2 from "../assets/Clients/LogoFrenchKarateFederation.png.png";
+import logo3 from "../assets/Clients/LogoINA.png";
+import logo4 from "../assets/Clients/Logomamaway.png";
+import logo5 from "../assets/Clients/LogoKompas.png";
+import logo6 from "../assets/Clients/LogoMINew.png";
+import logo7 from "../assets/Clients/LogoPertamina.png";
+import logo8 from "../assets/Clients/Logonavees.png";
+import logo9 from "../assets/Clients/Logosaguruku.jpg";
+// import logo10 from "../assets/Clients/pertaminaProject.png";
+// import logo11 from "../assets/Clients/pertaminaProject.png";
+// import logo12 from "../assets/Clients/pertaminaProject.png";
+// import logo13 from "../assets/Clients/pertaminaProject.png";
+// import logo14 from "../assets/Clients/pertaminaProject.png";
+// import logo15 from "../assets/Clients/pertaminaProject.png";
 
 const clientLogos = [
   logo1, logo2, logo3, logo4, logo5,
-  logo6, logo7, logo8, logo9, logo10,
-  logo11, logo12, logo13, logo14, logo15,
+  logo6, logo7, logo8, logo9
+  //  logo10,
+  // logo11, logo12, logo13, logo14, logo15,
 ];
 
 const Clients = () => {
