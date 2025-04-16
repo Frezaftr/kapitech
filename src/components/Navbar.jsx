@@ -10,7 +10,7 @@ const Navbar = () => {
       {/* Left Side: Logo + Brand + Menu (Hidden on mobile) */}
       <div className="flex items-center space-x-6">
         <img src={logo} alt="Kapitech Logo" className="h-8 w-auto" />
-        <span className="text-sm tracking-wider font-semibold">Kapitech</span>
+        <span className="text-sm tracking-wider font-semibold">| Kapitech</span>
         <div className="hidden md:flex items-center space-x-6">
           <div className="hover:text-red-500 cursor-pointer">Work</div>
           <div className="hover:text-red-500 cursor-pointer">Agency</div>
