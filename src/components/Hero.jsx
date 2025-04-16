@@ -5,18 +5,18 @@ const Hero = () => {
   return (
     <section
       className="relative h-screen bg-cover bg-center text-white"
-      style={{ backgroundImage: "url('/assets/BackgroundHome.png')" }}
+      style={{ backgroundImage: "url('/assets/Background1Home.jpg')" }}
     >
       {/* Overlay gelap */}
-      {/* <div className="absolute inset-0 bg-black/60" /> */}
+      <div className="absolute inset-0 bg-black/60" />
 
-      {/* Konten tengah */}
+      
       <div className="relative z-10 flex flex-col justify-center items-start h-full px-6 md:px-20">
         <motion.h1
           className="text-[72px] md:text-[90px] font-bold leading-[1.1] max-w-7xl"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6 }}
+          transition={{ duration: 1 }}
         >
           KTA® we 
           <div>
@@ -42,7 +42,7 @@ const Hero = () => {
         animate={{ opacity: 1 }}
         transition={{ delay: 0.8, duration: 0.5 }}
       >
-        <button className="px-6 py-3 bg-red-600 hover:bg-red-700 rounded-full font-medium transition">
+        <button className="px-6 py-3 bg-[#F32222] hover:bg-red-500 rounded-full font-medium transition">
           Explore Work
         </button>
       </motion.div>

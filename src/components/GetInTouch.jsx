@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgImage from "../assets/GetInTouch.png";
+import bgImage from "../assets/Backgroud2-GetInTouch.jpg";
 
 const interests = [
   "Branding", "Web Design", "Packaging", "Graphic Design",

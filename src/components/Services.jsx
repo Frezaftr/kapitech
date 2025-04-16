@@ -4,27 +4,33 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    title: "Web Development",
+    title: "Custom Website",
     description:
-      "We specialize in developing top-tier websites through the incorporation of contemporary design methodologies. The integration of mobile-first principles and seamless web experiences is imperative for the triumph of your online initiative. Our team is committed to upholding bespoke originality while placing a strong emphasis on responsive design, meticulously optimizing your website for various devices and interfaces. The end result will be a new website designed to allure coveted target audiences, enhance user engagement, stimulate sales, and ultimately elevate the brand value of your business.",
+      " We provides tailored website solutions to meet your business needs. We design and develop websites that are responsive, user-friendly, and aligned with your brand. Whether you need a company profile, e-commerce platform, or a unique web application, we ensure your website is functional, professional, and easy to manage.",
     tags: ["Corporate Website", "E-Commerce", "Landing Page"],
   },
   {
-    title: "Branding & Identity",
+    title: "E-Commerce",
     description:
-      "Crafting brand identities that resonate and endure. We develop visual and verbal brand systems that speak clearly and memorably.",
+      "Crafting brand identities that resonate and endure. We develop visual and verbal brand systems that speak clearly and memoWe offers custom online store solutions designed to help you sell products easily and efficiently. We build responsive, secure, and user-friendly e-commerce websites that suit your brand and business goals. From product management to payment integration, we ensure a smooth shopping experience for your customers and easy management for you.rably.",
     tags: ["Logo", "Brand Guidelines", "Naming"],
   },
   {
-    title: "UI / UX Design",
+    title: "Custom Website UI/UX",
     description:
       "We create intuitive and engaging digital interfaces, ensuring users have seamless experiences across every touchpoint.",
     tags: ["User Flow", "Wireframes", "Prototyping"],
   },
   {
-    title: "3D Event Model",
+    title: "Motion & Graphic Design",
     description:
-      "Immersive 3D experiences for virtual events, exhibitions, and presentations. Designed for impact and memorability.",
+      "logo design, brand identity, social media content, marketing collateral, packaging design, presentation design, infographic, animated logo, explaner video, social media motion, product animation, UI/UX animation, kinetic typography, event opening video",
+    tags: ["Virtual Booth", "Interactive Walkthrough", "3D Modeling"],
+  },
+  {
+    title: "Website support",
+    description:
+      " regular maintenance, bug fixes, content updates, backup & recovery, security monitoring, performance optimization, technical support, plugin/software updates, uptime monitoring",
     tags: ["Virtual Booth", "Interactive Walkthrough", "3D Modeling"],
   },
 ];

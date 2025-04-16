@@ -22,9 +22,9 @@ const Navbar = () => {
 
       {/* Right Side: Actions (Hidden on mobile) */}
       <div className="hidden md:flex items-center space-x-6 text-sm">
-        <div className="hover:text-red-500 cursor-pointer">News</div>
-        <div className="hover:text-red-500 cursor-pointer">Careers</div>
-        <button className="bg-red-600 hover:bg-red-700 transition px-5 py-1.5 rounded-full text-white font-medium text-sm">
+        {/* <div className="hover:text-red-500 cursor-pointer">News</div>
+        <div className="hover:text-red-500 cursor-pointer">Careers</div> */}
+        <button className="bg-[#F32222] hover:bg-red-500 transition px-5 py-1.5 rounded-full text-white font-medium text-sm">
           Contact
         </button>
       </div>
@@ -42,8 +42,8 @@ const Navbar = () => {
           <div className="hover:text-red-500 cursor-pointer">Work</div>
           <div className="hover:text-red-500 cursor-pointer">Agency</div>
           <div className="hover:text-red-500 cursor-pointer">Services</div>
-          <div className="hover:text-red-500 cursor-pointer">News</div>
-          <div className="hover:text-red-500 cursor-pointer">Careers</div>
+          {/* <div className="hover:text-red-500 cursor-pointer">News</div>
+          <div className="hover:text-red-500 cursor-pointer">Careers</div> */}
           <button className="bg-red-600 hover:bg-red-700 transition px-5 py-2 rounded-full text-white font-medium text-sm">
             Contact
           </button>
