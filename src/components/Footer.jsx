@@ -58,10 +58,22 @@ const Footer = () => {
           <div>
             <h4 className="text-white font-medium mb-3 border-t border-white/30 pt-3">Connect</h4>
             <ul className="space-y-2">
-              <li>Instagram</li>
+              <li>
+                <a href="https://www.instagram.com/kapitechagency/profilecard/?igsh=OWpndjFudDVvbzBh" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Instagram
+                </a>
+              </li>
               <li>Dribbble</li>
-              <li>Behance</li>
-              <li>Email</li>
+              <li>
+                <a href="https://www.behance.net/kapitechagency/" target="_blank" rel="noopener noreferrer" className="hover:underline">
+                Behance
+                </a>
+              </li>
+              <li>
+                <a href="mailto:Kapitechagency@gmail.com" className="hover:underline">
+                Email
+                </a>
+                </li>
             </ul>
           </div>
         </div>
