@@ -18,14 +18,14 @@ const projects = [
     id: "03",
     title: "Markplus, INC - Bank BTN",
     categories: "Video Production",
-    image: "/assets/markplus.png",
+    image: "/assets/ScreenRecorderProject4_3_1-8.jpg.png",
   },
-  {
-    id: "04",
-    title: "Markplus, INC - Bank BTN",
-    categories: "Video Production",
-    image: "/assets/markplus.png",
-  }
+  // {
+  //   id: "04",
+  //   title: "Ina Solusi Indonesia",
+  //   categories: "Video Production",
+  //   image: "/assets/markplus.png",
+  // }
   
   
 ];

@@ -82,7 +82,7 @@ const ProjectHighlight = () => {
                 initial="enter"
                 animate="center"
                 exit="exit"
-                transition={{ duration: 0.6, ease: "easeInOut" }}
+                transition={{ duration: 0.3, ease: "easeInOut" }}
               />
             </AnimatePresence>
           </div>
