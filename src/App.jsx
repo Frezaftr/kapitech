@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // ⬅️ Harus diletakkan di atas sebelum kode lainnya
+import "./index.css";
 
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";

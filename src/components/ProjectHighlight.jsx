@@ -90,7 +90,7 @@ const ProjectHighlight = () => {
           {/* Tombol kiri */}
           <button
             onClick={() => paginate(-1)}
-            className="absolute top-1/2 -translate-y-1/2 left-3 text-black text-3xl md:text-4xl bg-white bg-opacity-10 hover:bg-opacity-100 transition rounded-full px-2 py-1"
+            className="absolute top-1/2 -translate-y-1/2 left-3 text-black text-3xl md:text-4xl bg-white bg-opacity-5 hover:bg-opacity-100 transition rounded-full px-2 py-1"
           >
             &#10094;
           </button>
@@ -98,7 +98,7 @@ const ProjectHighlight = () => {
           {/* Tombol kanan */}
           <button
             onClick={() => paginate(1)}
-            className="absolute top-1/2 -translate-y-1/2 right-3 text-black text-3xl md:text-4xl bg-white bg-opacity-10 hover:bg-opacity-100 transition rounded-full px-2 py-1"
+            className="absolute top-1/2 -translate-y-1/2 right-3 text-black text-3xl md:text-4xl bg-white bg-opacity-5 hover:bg-opacity-100 transition rounded-full px-2 py-1"
           >
             &#10095;
           </button>
