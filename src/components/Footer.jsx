@@ -81,7 +81,7 @@ const Footer = () => {
         {/* Footer bottom */}
         <div className="mt-16 text-center text-xs text-gray-500 space-y-2">
           <p>
-            Copyright © 2023 Kapitech Digital Indonesia LLC • Headquartered in South Jakarta & Beyond
+            Copyright © 2024 Kapitech Digital Indonesia LLC • Headquartered in South Jakarta & Beyond
           </p>
           <p className="text-white text-xs">All rights reserved <span className="text-red-500">❤️</span></p>
         </div>

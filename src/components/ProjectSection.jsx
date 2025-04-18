@@ -6,47 +6,61 @@ const projects = [
     id: "01",
     title: "Pertamina",
     categories: "App Design / Branding / Graphic Design / Packaging Design / UI/UX / Web Design",
-    image: "/assets/pertamina.png", // ✅ path dari public
+    image: "/assets/Projectpertamina.jpg", 
   },
   {
     id: "02",
     title: "BKKBN",
-    categories: "Branding / Graphic Design / UI/UX",
-    image: "/assets/bkkbn.png",
+    categories: "social media / video ads",
+    image: "/assets/ProjectBKKBN.svg",
   },
   {
     id: "03",
     title: "Markplus, INC - Bank BTN",
-    categories: "Video Production",
-    image: "/assets/ScreenRecorderProject4_3_1-8.jpg.png",
+    categories: "video bumper / 2D animation ",
+    image: "/assets/projectBankBtnMark.jpg",
   },
-  // {
-  //   id: "04",
-  //   title: "Ina Solusi Indonesia",
-  //   categories: "Video Production",
-  //   image: "/assets/markplus.png",
-  // }
-  
-  
+  {
+    id: "04",
+    title: "Ina Solusi Indonesia",
+    categories: "custom website development / company profile website",
+    image: "/assets/ProjectINA.jpg",
+  },
+  {
+    id: "05",
+    title: "Saguruku Andalan Pratama",
+    categories: "custom wesite development",
+    image: "/assets/ProjectSAP.jpg",
+  },
+  {
+    id: "06",
+    title: "Navees",
+    categories: "video production / video editing / photo product / social media / video ads",
+    image: "/assets/ProjectNavees.jpg",
+  },
 ];
 
 const ProjectSection = () => {
   return (
     <section className="px-4 md:px-10 py-16 bg-white text-black">
-      <h2 className="text-sm mb-10">KTA® Select Portfolio Work | 2023</h2>
+      <h2 className="text-sm mb-10">KTA® Select Portfolio Work | 2024</h2>
 
       <div className="overflow-x-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-100">
         <div className="flex gap-6 w-max">
           {projects.map((project) => (
             <div
               key={project.id}
-              className="min-w-[260px] sm:min-w-[300px] md:min-w-[340px] max-w-[90vw]"
+              className="w-[500px] flex-shrink-0"
             >
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-auto object-cover rounded-md"
-              />
+              <div className="w-full h-[400px] overflow-hidden rounded-md">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+
+              {/* Deskripsi Project */}
               <div className="flex items-start mt-4 space-x-2">
                 <span className="text-xs border border-black rounded-full w-6 h-6 flex items-center justify-center font-medium">
                   {project.id}
