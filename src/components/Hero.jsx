@@ -7,7 +7,6 @@ const Hero = () => {
       className="relative h-screen bg-cover bg-center text-white"
       style={{ backgroundImage: "url('/assets/Background1Home.jpg')" }}
     >
-      {/* Overlay gelap */}
       <div className="absolute inset-0 bg-black/60" />
 
       
@@ -35,7 +34,6 @@ const Hero = () => {
         </motion.p>
       </div>
 
-      {/* Tombol kanan bawah */}
       <motion.div
         className="absolute bottom-10 right-10 z-10"
         initial={{ opacity: 0 }}

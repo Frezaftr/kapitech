@@ -1,4 +1,3 @@
-// src/components/MissionStatement.jsx
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -13,12 +12,9 @@ const MissionStatement = () => {
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <p className="relative leading-tight">
-          {/* Kutip Kiri */}
           <span className="absolute -left-4 -top-6 text-red-600 text-[48px] sm:text-[64px] md:text-[80px] leading-none">
             “
           </span>
-
-          {/* Teks */}
           <span className="block pl-8">
             KTA<sup>®</sup> creates innovative designs<br />
             that inspire and motivate.<br />
@@ -26,8 +22,6 @@ const MissionStatement = () => {
             agency to bring a profound sense<br />
             of pride and accomplishment.
           </span>
-
-          {/* Kutip Kanan */}
           <span className="absolute -right-4 -bottom-6 text-red-600 text-[48px] sm:text-[64px] md:text-[80px] leading-none">
             ”
           </span>

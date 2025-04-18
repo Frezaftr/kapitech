@@ -1,4 +1,3 @@
-// src/components/ScrollingServices.jsx
 import React from "react";
 
 const services = [

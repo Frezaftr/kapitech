@@ -8,8 +8,6 @@ const Recognition = () => {
         <div className="w-full md:w-1/2">
           <h2 className="text-sm font-medium">KTA<sup>®</sup> Recognition</h2>
         </div>
-
-        {/* Kanan Lebih Bawah */}
         <div className="w-full md:w-1/2 mt-16 space-y-12">
           {["Certifications", "Recognition", "Awards"].map((item, idx) => (
             <div key={idx} className="text-right">

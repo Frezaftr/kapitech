@@ -1,4 +1,3 @@
-// src/components/ProjectSection.jsx
 import React from "react";
 
 const projects = [
@@ -59,8 +58,6 @@ const ProjectSection = () => {
                   className="w-full h-full object-cover"
                 />
               </div>
-
-              {/* Deskripsi Project */}
               <div className="flex items-start mt-4 space-x-2">
                 <span className="text-xs border border-black rounded-full w-6 h-6 flex items-center justify-center font-medium">
                   {project.id}

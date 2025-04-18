@@ -1,4 +1,3 @@
-// src/components/ProjectHighlight.jsx
 import React, { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -87,7 +86,6 @@ const ProjectHighlight = () => {
             </AnimatePresence>
           </div>
 
-          {/* Tombol kiri */}
           <button
             onClick={() => paginate(-1)}
             className="absolute top-1/2 -translate-y-1/2 left-3 text-black text-3xl md:text-4xl bg-white bg-opacity-5 hover:bg-opacity-100 transition rounded-full px-2 py-1"
@@ -95,7 +93,6 @@ const ProjectHighlight = () => {
             &#10094;
           </button>
 
-          {/* Tombol kanan */}
           <button
             onClick={() => paginate(1)}
             className="absolute top-1/2 -translate-y-1/2 right-3 text-black text-3xl md:text-4xl bg-white bg-opacity-5 hover:bg-opacity-100 transition rounded-full px-2 py-1"
@@ -104,7 +101,6 @@ const ProjectHighlight = () => {
           </button>
         </div>
 
-        {/* RIGHT: Info Project */}
         <div className="w-full lg:w-1/3 flex flex-col justify-end">
           <div className="mt-6 lg:mt-auto">
             <h3 className="text-xl md:text-2xl font-semibold">{currentProject.client}</h3>
@@ -113,7 +109,6 @@ const ProjectHighlight = () => {
         </div>
       </div>
 
-      {/* Navigasi bawah */}
       <div className="mt-10 flex flex-col sm:flex-row items-center justify-between gap-4">
         {/* Progress Bar */}
         <div className="flex-1 flex justify-center sm:justify-start gap-4">
@@ -127,7 +122,6 @@ const ProjectHighlight = () => {
           ))}
         </div>
 
-        {/* Nomor & Tombol */}
         <div className="flex items-center gap-2 text-sm">
           <button onClick={() => paginate(-1)} className="text-xl">
             &#10094;

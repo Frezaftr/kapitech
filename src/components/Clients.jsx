@@ -1,4 +1,3 @@
-// src/components/Clients.jsx
 import React from "react";
 import { motion } from "framer-motion";
 
@@ -61,7 +60,6 @@ const Clients = () => {
           ))}
         </div>
 
-        {/* Underline */}
         <div className="mt-16">
           <div className="w-full h-[1px] bg-gray-300 relative">
             <motion.div
