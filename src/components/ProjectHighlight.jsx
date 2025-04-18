@@ -19,25 +19,25 @@ const projects = [
     id: 2,
     image: inaIMG,
     client: "INA",
-    services: "Web Design / Branding / UI/UX / Graphic Design",
+    services: "custom website development / company profile website",
   },
   {
     id: 3,
     image: markplusIMG,
     client: "MARKPLUS",
-    services: "Web Design / Branding / UI/UX / Graphic Design",
+    services: "video bumper / 2D animation ",
   },
   {
     id: 4,
     image: naveesIMG,
     client: "NAVEES GOLD",
-    services: "Web Design / Branding / UI/UX / Graphic Design",
+    services: "video production / video editing / photo product / social media / video ads",
   },
   {
     id: 5,
     image: sapIMG,
     client: "SAP",
-    services: "Web Design / Branding / UI/UX / Graphic Design",
+    services: "Web Design / custom wesite development",
   },
 ];
 

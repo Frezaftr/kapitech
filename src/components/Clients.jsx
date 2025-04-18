@@ -12,18 +12,17 @@ import logo6 from "../assets/Clients/LogoMINew.png";
 import logo7 from "../assets/Clients/LogoPertamina.png";
 import logo8 from "../assets/Clients/Logonavees.png";
 import logo9 from "../assets/Clients/Logosaguruku.jpg";
-// import logo10 from "../assets/Clients/pertaminaProject.png";
-// import logo11 from "../assets/Clients/pertaminaProject.png";
-// import logo12 from "../assets/Clients/pertaminaProject.png";
-// import logo13 from "../assets/Clients/pertaminaProject.png";
-// import logo14 from "../assets/Clients/pertaminaProject.png";
+import logo10 from "../assets/Clients/LogoGamal.png";
+import logo11 from "../assets/Clients/Logohalu.png";
+import logo12 from "../assets/Clients/Logokartope.svg";
+import logo13 from "../assets/Clients/Logomobilku.svg";
+import logo14 from "../assets/Clients/LogoSmartChange.png";
 // import logo15 from "../assets/Clients/pertaminaProject.png";
 
 const clientLogos = [
   logo1, logo2, logo3, logo4, logo5,
-  logo6, logo7, logo8, logo9
-  //  logo10,
-  // logo11, logo12, logo13, logo14, logo15,
+  logo6, logo7, logo8, logo9,logo10,
+  logo11, logo12, logo13, logo14,
 ];
 
 const Clients = () => {
